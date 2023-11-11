@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Школьный кино-клуб 'Киномания'</title>
+</head>
+<body>
+    <h1>Школьный кино-клуб 'Киномания'</h1>
+
+    <h2>О клубе</h2>
+    <p>Добро пожаловать в "Киноманию" - школьный кино-клуб для всех любителей кино! Наш клуб - это место, где каждый может погрузиться в удивительный мир кинематографа, обсудить любимые фильмы, узнать много нового о киноискусстве и даже попробовать себя в роли режиссера.</p>
+    <!-- <img src="logo_1.png" width="400px" height="300px" alt="Логотип клуба"> -->
+    <h2>Программа мероприятий</h2>
+    <p>Мы регулярно организуем показы фильмов, тематические встречи и мастер-классы. Не пропустите наш следующий показ – "История кино в 10 фильмах", который пройдет каждую пятницу в 18:00 в школьном кинозале.</p>
+
+    <h2>Просмотр фильмов</h2>
+    <p>Познакомьтесь с нашими предстоящими показами – посмотрите трейлеры самых ожидаемых фильмов сезона!</p>
+
+    <p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/IsRJGcY_nDQ?si=6aGEgjgyGUHB0JDc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </p>
+    <p>
+            <audio src="mocart.mp3" controls></audio>
+    </p>
+    <h2>Регистрация</h2>
+    <form>
+        <label for="name">Имя:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Электронная почта:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <label for="password">Пароль:</label>
+        <input type="password" id="password" name="password" required><br><br>
+        
+        <label>Предпочтительное время сеансов:</label><br>
+        <input type="radio" id="morning" name="time" value="Утро">
+        <label for="morning">Утро</label><br>
+        <input type="radio" id="afternoon" name="time" value="День">
+        <label for="afternoon">День</label><br>
+        <input type="radio" id="evening" name="time" value="Вечер">
+        <label for="evening">Вечер</label><br><br>
+
+        <input type="checkbox" id="newsletter" name="newsletter" value="Подписка на новости">
+        <label for="newsletter">Подписаться на новости клуба</label><br><br>
+
+        <input type="submit" value="Отправить">
+    </form>
+
+    <h2>Ссылки</h2>
+    <ul>
+        <li><a href="https://www.kinopoisk.ru/film/4448519/?utm_referrer=yandex.ru">Полное описание фильма 1</a></li>
+        <li><a href="https://www.kinopoisk.ru/film/395057/">Полное описание фильма 2</a></li>
+        <li><a href="https://www.kinopoisk.ru/film/930878/">Полное описание фильма 3</a></li>
+    </ul>
+
+    <footer>
+        <p>Контакты: киноклуб@школа.com | Тел: +7 123 456 7890</p>
+        <p>&copy; 2023 Школьный кино-клуб "Киномания"</p>
+    </footer>
+</body>
+</html>
